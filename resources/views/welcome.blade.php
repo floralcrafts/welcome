@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>Floralcrafts</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -30,15 +30,16 @@
                 display: inline-block;
             }
 
-            .title {
-                font-size: 96px;
+            .content p{
+                margin: 0px;
             }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title"><img src="{{ asset('img/logo2.svg') }}" alt=""></div>
+                <p>Blooming soon</p>
             </div>
         </div>
     </body>
